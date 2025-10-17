@@ -623,7 +623,7 @@ extension MzAclRevision {
                 return "onto/gun"
             case .bToVertex:
                 return "manly/deck"
-            case bToVertexstants:
+            case .bToVertexstants:
                 return "explore/building"
             case .fGatherConstants:
                 return "cap/show"
