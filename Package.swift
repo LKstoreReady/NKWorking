@@ -31,5 +31,6 @@ let package = Package(
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
             ]
         )
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
