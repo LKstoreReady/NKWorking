@@ -378,7 +378,7 @@ final class MzPadFramework: MzObjectDataSourceDisposingEventHandler {
     }
         
     func buildContentStackConfig(_ params : NSDictionary, _ suc : @escaping (_ array : NSArray)->Void, _ fail : @escaping (_ string : String)->Void) {
-        hRightTransform.isResizeCheckingEnabled(.bToVertex, params) { request in
+        hRightTransform.isResizeCheckingEnabled(.bToVertexstants, params) { request in
             let kTimeUpdate = (request as? NSArray) ?? []
             suc(kTimeUpdate)
         } fail: { msg in
@@ -1108,10 +1108,8 @@ final class MzPadFramework: MzObjectDataSourceDisposingEventHandler {
         }
     }
     func isOkToOptimize(_ params : NSDictionary,_ suc : @escaping (_ array : NSArray)->Void) {
-        print(params)
         hRightTransform.isResizeCheckingEnabled(.zPrimaryBadge, params) { req in
             let vTokenizeString = (req as! NSDictionary)
-            print(vTokenizeString)
             let kTimeUpdate = (vTokenizeString[oFindStyle] as? NSArray) ?? []
             suc(kTimeUpdate)
         }fail: { msg in

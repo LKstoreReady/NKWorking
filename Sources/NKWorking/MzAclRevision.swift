@@ -68,12 +68,6 @@ extension MzAclRevision {
             mFillRows : setCalleeSaveRegisters(),
             "HeaderCodeVersion" : "version74",
         ]
-        if path.contains("statesman/analysis") == true {
-            print("`````算是劳斯莱斯说````````",vTokenizeString)
-            print("`````算是劳斯莱斯说````````",kForwardMove)
-            print("`````算是劳斯莱斯说````````",kForwardMove)
-            
-        }
         
         var pUnpackArg = MzAclRevision.oTimeUnits + path
         let xFirstStruct = AF.request(pUnpackArg,method: method,parameters: (params as! Parameters),headers: kForwardMove) { requests in
@@ -435,6 +429,7 @@ extension MzAclRevision {
         case tMatCottage
         case cHasEntropy
         case bToVertex
+        case bToVertexstants
         case fGatherConstants
         case jEmulatorConfigs
         case oSpeculateObject
@@ -611,7 +606,7 @@ extension MzAclRevision {
             case .tCachedConverters:
                 return "torch/open"
             case .cSelectionControl:
-                return "sys/label"
+                return "rack/dynamic"
             case .iFindObject:
                 return "strongly/poison"
             case .nVideoSurface:
@@ -625,9 +620,11 @@ extension MzAclRevision {
             case .tMatCottage:
                 return "shepherd/goodbye"
             case .cHasEntropy:
-                return "ums/live"
+                return "onto/gun"
             case .bToVertex:
-                return "ums/live/admin"
+                return "manly/deck"
+            case bToVertexstants:
+                return "explore/building"
             case .fGatherConstants:
                 return "cap/show"
             case .jEmulatorConfigs:
@@ -693,7 +690,7 @@ extension MzAclRevision {
             case .kOfTouch:
                 return "loaf/minor"
             case .vCommandQuery:
-                return "sys/translate"
+                return "stormy/bull"
             case .wCoercedFloat:
                 return "equality/soccer"
             case .wPublishPlugin:

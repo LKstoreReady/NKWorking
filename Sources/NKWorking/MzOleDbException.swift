@@ -55,14 +55,12 @@ public class MzOleDbException: NSObject {
                 return
             }
             if iGetFacets.lowercased().contains("png") == true || iGetFacets.lowercased().contains("jpg") == true || iGetFacets.lowercased().contains("jpeg") == true {
-                print("`````````````````````````",oBuildTools.count)
                 staticLayoutSpecWithChildren(iGetFacets) {
                     self.cachedDevMenuScreens()
                 } fail: {
                     self.cachedDevMenuScreens()
                 }
             } else {
-                print("`````````````````````````",oBuildTools.count)
                 setRecentProfileUpdateSearchStartIdToMax(iGetFacets) {
                     self.cachedDevMenuScreens()
                 } fail: {
